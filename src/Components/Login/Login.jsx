@@ -8,7 +8,7 @@ import { UserContext } from '../../userContext'
 import styles from './Login.module.css'
 
 const Login = () => {
-  const {login} = React.useContext(UserContext)
+  const { login } = React.useContext(UserContext)
 
   if(login === true ) return <Navigate to='/conta' />
   return (
