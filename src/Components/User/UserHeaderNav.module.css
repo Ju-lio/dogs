@@ -61,6 +61,8 @@
   background-color: currentColor;
   border-radius: 2px;
   box-shadow: 0 6px currentColor, 0 -6px currentColor;
+
+  transition: .2s;
 }
 
 .mobileButton:hover,
@@ -72,6 +74,60 @@
   color: #fb1;
 }
 
-.mobileButtonActive {
-  
+.mobileButtonInactive {
+  opacity: 0 !important;
+}
+
+.mobileButtonActive::after {
+  transform: rotate(-90deg);
+  width: 4px;
+  height: 4px;
+  box-shadow: 0 8px currentColor, 0 -8px currentColor;
+}
+
+.navMobile {
+  display: block;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  padding: 0 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0, .2);
+  border-radius: .2rem;
+  transform: translateX(-10px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navMobile a,
+.navMobile button {
+  display: flex;
+  align-items: center;
+  background: none;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: .5rem 0;
+  cursor: pointer;
+}
+
+.navMobile a:hover svg > *,
+.navMobile button:hover svg > * {
+  fill: #fb1;
+}
+
+.navMobile button {
+  border-bottom: none;
+}
+
+.navMobile svg {
+  margin-right: 0.5rem;
+}
+
+.navMobileActive {
+  transition: .3s;
+  transform: initial;
+  opacity: 1;
+  z-index: 100;
+  pointer-events: initial;
 }

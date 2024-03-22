@@ -7,15 +7,14 @@ const UserHeader = () => {
   const [title, setTitle] = React.useState('');
   const location = useLocation();
 
-  const locationType = React.useState({
-    '/conta': 'Minha conta',
-    '/conta/estatisticas': 'Estatísticas',
-    '/conta/postar': 'Postar foto',
-  });
-
   React.useEffect(() => {
+    const locationType = {
+      '/conta': 'Minha conta',
+      '/conta/estatisticas': 'Estatísticas',
+      '/conta/postar': 'Postar foto',
+    };
     setTitle(locationType[location.pathname]);
-  }, [location.pathname, locationType]);
+  }, [location]);
 
   return (
     <header className={styles.header}>

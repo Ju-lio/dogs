@@ -7,12 +7,13 @@ const useMedia = (media) => {
     function changeMatch() {
       const { matches } = window.matchMedia(media);
       setMatch(matches);
-      window.addEventListener('resize', changeMatch);
-      return () => {
-        window.removeEventListener('resize', changeMatch);
-      };
     }
-  });
+    changeMatch();
+    window.addEventListener('resize', changeMatch);
+    return () => {
+      window.removeEventListener('resize', changeMatch);
+    };
+  }, [media]);
 
   return match;
 };
