@@ -38,3 +38,40 @@
 .nav a:global(.active) svg > * {
   fill: #fb1
 }
+
+.mobileButton {
+  background-color: #eee;
+  border-radius: .2rem;
+  height: 40px;
+  width: 40px; 
+  padding: 0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: .1s;
+  cursor: pointer;
+}
+
+.mobileButton::after {
+  content: '';
+  display: block;
+  width: 1.2rem;
+  height: 2px;
+  background-color: currentColor;
+  border-radius: 2px;
+  box-shadow: 0 6px currentColor, 0 -6px currentColor;
+}
+
+.mobileButton:hover,
+.mobileButton:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px #fea;
+  border-color: #fb1;
+  color: #fb1;
+}
+
+.mobileButtonActive {
+  
+}
