@@ -13,13 +13,13 @@ const UserHeaderNav = () => {
   const navigate = useNavigate();
   const mobile = useMedia('(max-width: 40rem)');
   const [mobileMenu, setMobileMenu] = React.useState(false);
+  const { pathname } = useLocation();
 
-  const { patchname } = useLocation();
   React.useEffect(() => {
     setMobileMenu(false);
-  }, [patchname]);
+  }, [pathname]);
 
-  console.log(mobile);
+  console.log(pathname);
 
   function handleLogout() {
     userLogout();
