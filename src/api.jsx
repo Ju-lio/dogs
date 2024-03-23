@@ -1,4 +1,4 @@
-export const API_URL = 'https://dogsapi.origamid.dev/json'
+export const API_URL = 'https://dogsapi.origamid.dev/json';
 
 export function TOKEN_POST(body) {
   return {
@@ -8,9 +8,9 @@ export function TOKEN_POST(body) {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(body) 
-    }
-  }
+      body: JSON.stringify(body),
+    },
+  };
 }
 
 export function TOKEN_VALIDATE_POST(token) {
@@ -19,10 +19,10 @@ export function TOKEN_VALIDATE_POST(token) {
     options: {
       method: 'POST',
       headers: {
-        Authorization: 'Bearer ' + token
+        Authorization: 'Bearer ' + token,
       },
-    }
-  }
+    },
+  };
 }
 
 export function USER_GET(token) {
@@ -31,10 +31,10 @@ export function USER_GET(token) {
     options: {
       method: 'GET',
       headers: {
-        Authorization: 'Bearer ' + token
-       },
-    }
-  }
+        Authorization: 'Bearer ' + token,
+      },
+    },
+  };
 }
 
 export function USER_POST(body) {
@@ -45,7 +45,20 @@ export function USER_POST(body) {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(body) 
-    }
-  }
+      body: JSON.stringify(body),
+    },
+  };
+}
+
+export function PHOTO_POST(formData, token) {
+  return {
+    url: API_URL + '/api/photo',
+    options: {
+      method: 'POST',
+      headers: {
+        Authorization: 'Bearer ' + token,
+      },
+      body: formData,
+    },
+  };
 }

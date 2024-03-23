@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Navigate, useLocation, useNavigate } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { UserContext } from '../../userContext';
 import MinhasFotos from '../../Assets/feed.svg?react';
 import Estatisticas from '../../Assets/estatisticas.svg?react';
