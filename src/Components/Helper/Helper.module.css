@@ -2,3 +2,12 @@
   color: #f31;
   margin: 1rem 0;
 }
+
+.loading {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: calc((100vh - 300px)/2);
+}

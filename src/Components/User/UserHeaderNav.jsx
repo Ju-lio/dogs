@@ -19,8 +19,6 @@ const UserHeaderNav = () => {
     setMobileMenu(false);
   }, [pathname]);
 
-  console.log(pathname);
-
   function handleLogout() {
     userLogout();
     navigate('/login');
@@ -46,7 +44,7 @@ const UserHeaderNav = () => {
         <NavLink to="/conta" end>
           <MinhasFotos /> {mobile && 'Minhas fotos'}
         </NavLink>
-        <NavLink to="/conta/estatisticas">
+        <NavLink className={styles.disabled} to="/conta/estatisticas">
           <Estatisticas /> {mobile && 'Estatísticas'}
         </NavLink>
         <NavLink to="/conta/postar">

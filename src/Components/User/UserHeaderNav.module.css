@@ -131,3 +131,16 @@
   z-index: 100;
   pointer-events: initial;
 }
+
+.disabled {
+  background-color: #E3E3E3 !important;
+  pointer-events: none;
+}
+
+.disabled:hover {
+  border-color: #EEEEEE !important;
+}
+
+.disabled svg > * {
+  fill: #FFF ;
+}

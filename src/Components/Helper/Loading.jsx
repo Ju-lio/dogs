@@ -1,7 +1,12 @@
 import React from 'react';
+import styles from './Helper.module.css';
 
 const Loading = () => {
-  return <div>Carregando...</div>;
+  return (
+    <div className={styles.loading}>
+      <p>Carregando...</p>
+    </div>
+  );
 };
 
 export default Loading;
