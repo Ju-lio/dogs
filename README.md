@@ -1,18 +1,10 @@
-<div style="display:flex;align-items:center;justify-content:center">
+<div style="display:flex;align-items:center;justify-content:center;witdh:100vw">
   <img src="./media/logo.png" alt="Logo">
 </div>
 
 > Dogs - Projeto destinado a aprimorar meus conhecimentos em React. Uma aplicação de uma rede social para cachorros, criada no curso de React da Origamid.
 
-<br>
 ![GitHub repo size](https://img.shields.io/github/repo-size/ju-lio/dogs?style=for-the-badge)  ![GitHub language count](https://img.shields.io/github/languages/count/ju-lio/dogs?style=for-the-badge)  ![GitHub forks](https://img.shields.io/github/last-commit/ju-lio/dogs?style=for-the-badge)  ![GitHub forks](https://img.shields.io/github/languages/top/ju-lio/dogs?style=for-the-badge)
-
-### 📃Tabela de conteúdo 📃
-
-* [Estágio de desenvolvimento](#estagio-dev)
-* [Como usar](#como-usar)
-* [Layout](#layout)
-* [Acessar](#acessar)
 
 ## 🚧 Estágio de desenvolvimento 🚧
 
