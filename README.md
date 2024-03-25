@@ -1,8 +1,12 @@
-<div style="display:flex;align-items:center;justify-content:center;witdh:100%">
+<p align="center">
   <img src="./media/logo.png" alt="Logo">
-</div>
+</p>
 
-> Dogs - Projeto destinado a aprimorar meus conhecimentos em React. Uma aplicação de uma rede social para cachorros, criada no curso de React da Origamid.
+# Dogs 🐶
+
+> Projeto destinado a aprimorar meus conhecimentos em React. Uma aplicação de uma rede social para cachorros, criada no curso de React da Origamid.
+
+<br>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ju-lio/dogs?style=for-the-badge)  ![GitHub language count](https://img.shields.io/github/languages/count/ju-lio/dogs?style=for-the-badge)  ![GitHub forks](https://img.shields.io/github/last-commit/ju-lio/dogs?style=for-the-badge)  ![GitHub forks](https://img.shields.io/github/languages/top/ju-lio/dogs?style=for-the-badge)
 
@@ -21,8 +25,12 @@
 
 <img src="./media/example.png" alt="Demonstração">
 
-## ⚙️ Tecnologias usadas ⚙️
+## ⚡ Tecnologias usadas ⚙️
+<p align="center">
+  
  ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)  ![Vite](https://img.shields.io/badge/-Vite-F7D548?style=flat-square&logo=vite) ![React Router](https://img.shields.io/badge/-React%20Router-FFFFFF?style=flat-square&logo=ReactRouter) ![Prettier](https://img.shields.io/badge/-Prettier-273943?style=flat-square&logo=prettier) ![ESLint](https://img.shields.io/badge/-ESLint-4930BD?style=flat-square&logo=eslint) 
+ 
+</p>
 
 ## 🔨 Como usar 💻
 
