@@ -1,27 +1,24 @@
-# Nome do projeto
+<div style="display:flex;align-items:center;justify-content:center">
+  <img src="./media/logo.png" alt="Logo">
+</div>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/ju-lio/dogs?style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/ju-lio/dogs?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/last-commit/ju-lio/dogs?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/languages/top/ju-lio/dogs?style=for-the-badge)
+> Dogs - Projeto destinado a aprimorar meus conhecimentos em React. Uma aplicação de uma rede social para cachorros, criada no curso de React da Origamid.
 
-![logotipo][def]
+<br>
+![GitHub repo size](https://img.shields.io/github/repo-size/ju-lio/dogs?style=for-the-badge)  ![GitHub language count](https://img.shields.io/github/languages/count/ju-lio/dogs?style=for-the-badge)  ![GitHub forks](https://img.shields.io/github/last-commit/ju-lio/dogs?style=for-the-badge)  ![GitHub forks](https://img.shields.io/github/languages/top/ju-lio/dogs?style=for-the-badge)
 
-# Dogs 🐶
+### 📃Tabela de conteúdo 📃
 
-> Projeto destinado a aprimorar meus conhecimentos em React. Uma aplicação de uma rede social para cachorros, criada no curso de React da Origamid.
-
-### [📃](https://emojipedia.org/page-with-curl)Tabela de conteúdo [📃](https://emojipedia.org/page-with-curl)
-
-* [Estágio de desenvolvimento](#est%C3%A1gio-de-desenvolvimento)
+* [Estágio de desenvolvimento](#estagio-dev)
 * [Como usar](#como-usar)
 * [Layout](#layout)
 * [Acessar](#acessar)
 
 ## 🚧 Estágio de desenvolvimento 🚧
 
-🚧 Em desenvolvimento 🚧
+>O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-* [X] Responsividade para mobile
+* [x] Responsividade para mobile
 * [ ] Feed com lazy loading das postagens
 * [ ] Sessão de comentários nas postagens
 * [ ] Separação de postagens por usuário
@@ -30,7 +27,10 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## 🤖 Demonstração📱
 
-<img src="./img/example.png" alt="Demonstração">
+<img src="./media/example.png" alt="Demonstração">
+
+## ⚙️ Tecnologias usadas ⚙️
+ ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)  ![Vite](https://img.shields.io/badge/-Vite-F7D548?style=flat-square&logo=vite) ![React Router](https://img.shields.io/badge/-React%20Router-FFFFFF?style=flat-square&logo=ReactRouter) ![Prettier](https://img.shields.io/badge/-Prettier-273943?style=flat-square&logo=prettier) ![ESLint](https://img.shields.io/badge/-ESLint-4930BD?style=flat-square&logo=eslint) 
 
 ## 🔨 Como usar 💻
 
@@ -48,5 +48,3 @@ $ npm start
 ## 🔗 Acessar 🚀
 
 A versão mais recente para demonstração está sendo hospedada aqui mesmo pelo GitHub e pode ser acessada clicando [aqui](https://ju-lio.github.io/).
-
-[def]: .media/img_0.png
