@@ -47,4 +47,4 @@ $ npm start
 
 ## 🔗 Acessar 🚀
 
-A versão mais recente para demonstração está sendo hospedada aqui mesmo pelo GitHub e pode ser acessada clicando [aqui](https://juliocastro.site/).
+A versão mais recente para demonstração está sendo hospedada aqui mesmo pelo GitHub e pode ser acessada clicando [aqui](https://dogs.juliocastro.site/).
