@@ -15,9 +15,9 @@
 >O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 * [x] Responsividade para mobile
-* [ ] Feed com lazy loading das postagens
-* [ ] Sessão de comentários nas postagens
+* [x] Sessão de comentários nas postagens
 * [ ] Separação de postagens por usuário
+* [ ] Feed infinito
 * [ ] Otimização do CSS
 * [ ] Tema escuro
 
