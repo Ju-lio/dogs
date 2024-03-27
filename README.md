@@ -4,7 +4,7 @@
 
 # Dogs 🐶
 
-> Projeto destinado a aprimorar meus conhecimentos em React. Uma aplicação de uma rede social para cachorros, criada no curso de React da Origamid.
+> Projeto destinado a adiquirir conhecimento na parte de React. Uma aplicação de uma rede social para cachorros, criada no curso de React da Origamid.
 
 <br>
 
@@ -14,11 +14,21 @@
 
 >O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
+* [x] Cadastro de usuários
+* [x] Login de usuário
+* [x] Postagem de fotos
+* [x] Feed com as fotos
 * [x] Responsividade para mobile
 * [x] Sessão de comentários nas postagens
-* [ ] Separação de postagens por usuário
-* [ ] Feed infinito
-* [ ] Otimização do CSS
+* [x] Exclusão de fotos
+* [ ] Loading & Image Skeleton
+* [ ] Feed com scroll infinito
+* [ ] Página para a foto
+* [ ] Perfil de usuário
+* [ ] Erro 404
+* [ ] Perdeu a senha?
+* [ ] Biblioteca externa - Gráfico
+* [ ] Lazy & Suspente
 * [ ] Tema escuro
 
 ## 🤖 Demonstração📱
