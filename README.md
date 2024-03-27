@@ -19,6 +19,7 @@
 * [x] Postagem de fotos
 * [x] Feed com as fotos
 * [x] Responsividade para mobile
+* [x] Versão 1.0 hospedada
 * [x] Sessão de comentários nas postagens
 * [x] Exclusão de fotos
 * [ ] Loading & Image Skeleton
@@ -30,6 +31,7 @@
 * [ ] Biblioteca externa - Gráfico
 * [ ] Lazy & Suspente
 * [ ] Tema escuro
+* [ ] Finalização do projeto
 
 ## 🤖 Demonstração📱
 
