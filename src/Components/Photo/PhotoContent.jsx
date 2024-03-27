@@ -5,7 +5,7 @@ import PhotoComments from './PhotoComments';
 import useMask from '../../Hooks/useMask';
 
 const PhotoContent = ({ data }) => {
-  const { photo, coment } = data;
+  const { photo, comments } = data;
   const Mask = useMask();
   return (
     <div className={styles.photo}>
@@ -29,7 +29,8 @@ const PhotoContent = ({ data }) => {
           </ul>
         </div>
       </div>
-      <PhotoComments id={photo.id} comments={photo.comments} />
+      {console.log(photo)}
+      <PhotoComments id={photo.id} comments={comments} />
     </div>
   );
 };
