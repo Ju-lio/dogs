@@ -19,6 +19,7 @@
 * [x] Postagem de fotos
 * [x] Feed com as fotos
 * [x] Responsividade para mobile
+* [x] Versão 1.0 hospedada
 * [x] Sessão de comentários nas postagens
 * [x] Exclusão de fotos
 * [x] Loading & Image Skeleton
@@ -30,6 +31,7 @@
 * [ ] Biblioteca externa - Gráfico
 * [ ] Lazy & Suspente
 * [ ] Tema escuro
+* [ ] Finalização do projeto
 
 ## 🤖 Demonstração📱
 
@@ -57,4 +59,4 @@ $ npm start
 
 ## 🔗 Acessar 🚀
 
-A versão mais recente para demonstração está sendo hospedada aqui mesmo pelo GitHub e pode ser acessada clicando [aqui](https://dogs.juliocastro.site/).
+A versão mais recente para demonstração está sendo hospedada pela Vercel e pode ser acessada clicando [aqui](https://dogs.juliocastro.site/).
