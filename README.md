@@ -23,7 +23,7 @@
 * [x] Sessão de comentários nas postagens
 * [x] Exclusão de fotos
 * [x] Loading & Image Skeleton
-* [ ] Feed com scroll infinito
+* [x] Feed com scroll infinito
 * [ ] Página para a foto
 * [ ] Perfil de usuário
 * [ ] Erro 404
