@@ -8,6 +8,7 @@ import './App.css';
 import { UserStorage } from './userContext';
 import User from './Components/User/User';
 import ProtectedRoute from './Components/Helper/ProtectedRoute';
+import UserProfile from './Components/User/UserProfile';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="login/*" element={<Login />} />
+            <Route path="perfil/:user" element={<UserProfile />} />
             <Route
               path="conta/*"
               element={
