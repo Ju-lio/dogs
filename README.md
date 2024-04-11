@@ -28,8 +28,8 @@
 * [x] Perfil de usuário
 * [x] Erro 404
 * [x] Perdeu a senha?
-* [ ] Biblioteca externa - Gráfico
-* [ ] Lazy & Suspente
+* [x] Biblioteca externa - Gráfico
+* [x] Lazy & Suspente
 * [ ] Tema escuro
 * [ ] Finalização do projeto
 
