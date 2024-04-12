@@ -24,7 +24,7 @@
 * [x] Exclusão de fotos
 * [x] Loading & Image Skeleton
 * [x] Feed com scroll infinito
-* [ ] Página para a foto
+* [x] Página para a foto
 * [x] Perfil de usuário
 * [x] Erro 404
 * [x] Perdeu a senha?
