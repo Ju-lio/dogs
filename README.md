@@ -12,7 +12,7 @@
 
 ## 🚧 Estágio de desenvolvimento 🚧
 
->O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+>PROJETO FINALIZADO.
 
 * [x] Cadastro de usuários
 * [x] Login de usuário
@@ -31,7 +31,7 @@
 * [x] Biblioteca externa - Gráfico
 * [x] Lazy & Suspente
 * [ ] Tema escuro
-* [ ] Finalização do projeto
+* [x] Finalização do projeto
 
 ## 🤖 Demonstração📱
 
